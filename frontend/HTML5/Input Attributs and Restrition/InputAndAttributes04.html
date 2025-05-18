@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Target Attribute Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    a, form {
+      display: block;
+      margin: 15px auto;
+      max-width: 400px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Using the <code>target</code> Attribute in HTML</h1>
+
+ 
+  <a href="https://www.wikipedia.org" target="_blank">Open Wikipedia in a New Tab</a>
+
+
+  <a href="https://www.google.com" target="_self">Open Google in Same Tab</a>
+
+  
+  <form action="https://httpbin.org/get" method="get" target="_blank">
+    <label>Enter URL: </label>
+    <input type="text" name="query" />
+    <button type="submit">Submit to New Tab</button>
+  </form>
+
+</body>
+</html>

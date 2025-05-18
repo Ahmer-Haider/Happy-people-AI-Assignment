@@ -1,0 +1,5 @@
+div {
+  height: 200px; /*height in pixels*/
+  width: 50%; /* width in %*/
+  background-color: powderblue;
+}

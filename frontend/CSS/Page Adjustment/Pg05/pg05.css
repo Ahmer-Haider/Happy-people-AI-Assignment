@@ -1,0 +1,9 @@
+#example1 {
+        /*here we attach the 2 images that are to be used as backgrounds*/
+        background-image: url(http://static.demilked.com/wp-content/uploads/2018/03/5aaa1cb8ecce7-funny-weird-wtf-stock-photos-54-5a3bb0a19c729__700.jpg),
+          url(https://www.pngkit.com/png/detail/174-1747550_rainbow-light-png-grass.png);
+        background-position: right bottom, left top;
+        background-size: 300px 500px;
+        background-repeat: no-repeat, repeat;
+        padding: 250px;
+      }

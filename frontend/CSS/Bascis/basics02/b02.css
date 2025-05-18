@@ -1,0 +1,11 @@
+body {
+  background-color: #e6f2ff;
+  background-image: url("https://cdn-1.motorsport.com/images/mgl/0oOjXd70/s1200/carlos-sainz-jr-ferrari-f1-75-1.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+
+}
+h1{
+    color: blue;
+}

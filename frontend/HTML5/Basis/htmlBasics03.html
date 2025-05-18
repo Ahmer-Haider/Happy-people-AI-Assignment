@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navBar {
+      background-color: #4a4a4a;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .navBar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      margin: 5px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .navBar a:hover {
+      background-color: #6e6e6e;
+      border-radius: 5px;
+    }
+
+    .main-body {
+      padding: 20px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      color: white;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .home {
+      background-color: #3498db;
+    }
+
+    .about {
+      background-color: #2ecc71;
+    }
+
+    .contact {
+      background-color: #e67e22;
+    }
+
+    .projects {
+      background-color: #9b59b6;
+    }
+
+    .login {
+      background-color: #1abc9c;
+    }
+
+    .signup {
+      background-color: #e74c3c;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navBar">
+    <a href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#login">Log in</a>
+    <a href="#signup">Sign Up</a>
+  </nav>
+
+  <div class="main-body">
+    <div class="section home" id="home">HOME</div>
+    <div class="section about" id="about">ABOUT</div>
+    <div class="section contact" id="contact">CONTACT</div>
+    <div class="section projects" id="projects">PROJECTS</div>
+    <div class="section login" id="login">LOG IN</div>
+    <div class="section signup" id="signup">SIGN UP</div>
+  </div>
+</body>
+</html>

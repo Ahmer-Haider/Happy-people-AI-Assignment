@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Q2 call() and apply()</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const person = {
+            fullName: function (city, country) {
+                return (
+                    this.firstName + " " + this.lastName + ", " + city + ", " + country
+                );
+            },
+        };
+
+        const person1 = {
+            firstName: "Rahul",
+            lastName: "K",
+        };
+        document.getElementById("demo").innerHTML = person.fullName.apply(
+            person1,
+            ["Hyd", "India"]
+        );
+        document.getElementById("demo").innerHTML = person.fullName.call(
+            person1,
+            "Hyd",
+            "India"
+        );
+    </script>
+</body>
+
+</html>
