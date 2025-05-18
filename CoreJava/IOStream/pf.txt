@@ -1,0 +1,5 @@
+#Sample properties file
+#Sun May 18 16:48:30 IST 2025
+College=MJCET Tech
+E.no=025
+Name=Ahmer Haider
